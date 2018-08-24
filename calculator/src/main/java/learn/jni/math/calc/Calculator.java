@@ -7,4 +7,10 @@ public class Calculator {
     }
     
     public native int square(int a);
+    
+    public native int add(int a, int b);
+    
+    public native int subtract(int a, int b);
+    
+    public native int multiply(int a, int b);
 }

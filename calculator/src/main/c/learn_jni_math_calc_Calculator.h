@@ -15,6 +15,30 @@ extern "C" {
 JNIEXPORT jint JNICALL Java_learn_jni_math_calc_Calculator_square
   (JNIEnv *, jobject, jint);
 
+/*
+ * Class:     learn_jni_math_calc_Calculator
+ * Method:    add
+ * Signature: (II)I
+ */
+JNIEXPORT jint JNICALL Java_learn_jni_math_calc_Calculator_add
+  (JNIEnv *, jobject, jint, jint);
+
+/*
+ * Class:     learn_jni_math_calc_Calculator
+ * Method:    subtract
+ * Signature: (II)I
+ */
+JNIEXPORT jint JNICALL Java_learn_jni_math_calc_Calculator_subtract
+  (JNIEnv *, jobject, jint, jint);
+
+/*
+ * Class:     learn_jni_math_calc_Calculator
+ * Method:    multiply
+ * Signature: (II)I
+ */
+JNIEXPORT jint JNICALL Java_learn_jni_math_calc_Calculator_multiply
+  (JNIEnv *, jobject, jint, jint);
+
 #ifdef __cplusplus
 }
 #endif
